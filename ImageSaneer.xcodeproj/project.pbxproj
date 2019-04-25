@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42B1A9B62271BDEF00FD73F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B1A9B52271BDEF00FD73F5 /* AppDelegate.swift */; };
+		42B1A9B82271BDEF00FD73F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B1A9B72271BDEF00FD73F5 /* ViewController.swift */; };
+		42B1A9BB2271BDEF00FD73F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42B1A9B92271BDEF00FD73F5 /* Main.storyboard */; };
+		42B1A9BE2271BDEF00FD73F5 /* ImageSaneer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 42B1A9BC2271BDEF00FD73F5 /* ImageSaneer.xcdatamodeld */; };
+		42B1A9C02271BDF200FD73F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42B1A9BF2271BDF200FD73F5 /* Assets.xcassets */; };
+		42B1A9C32271BDF200FD73F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42B1A9C12271BDF200FD73F5 /* LaunchScreen.storyboard */; };
+		42B1A9CE2271BDF200FD73F5 /* ImageSaneerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B1A9CD2271BDF200FD73F5 /* ImageSaneerTests.swift */; };
+		42B1A9D92271BDF200FD73F5 /* ImageSaneerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B1A9D82271BDF200FD73F5 /* ImageSaneerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42B1A9CA2271BDF200FD73F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42B1A9AA2271BDEF00FD73F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42B1A9B12271BDEF00FD73F5;
+			remoteInfo = ImageSaneer;
+		};
+		42B1A9D52271BDF200FD73F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42B1A9AA2271BDEF00FD73F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42B1A9B12271BDEF00FD73F5;
+			remoteInfo = ImageSaneer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42B1A9B22271BDEF00FD73F5 /* ImageSaneer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageSaneer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42B1A9B52271BDEF00FD73F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42B1A9B72271BDEF00FD73F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42B1A9BA2271BDEF00FD73F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42B1A9BD2271BDEF00FD73F5 /* ImageSaneer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ImageSaneer.xcdatamodel; sourceTree = "<group>"; };
+		42B1A9BF2271BDF200FD73F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42B1A9C22271BDF200FD73F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42B1A9C42271BDF200FD73F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42B1A9C92271BDF200FD73F5 /* ImageSaneerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageSaneerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42B1A9CD2271BDF200FD73F5 /* ImageSaneerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaneerTests.swift; sourceTree = "<group>"; };
+		42B1A9CF2271BDF200FD73F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42B1A9D42271BDF200FD73F5 /* ImageSaneerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageSaneerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42B1A9D82271BDF200FD73F5 /* ImageSaneerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaneerUITests.swift; sourceTree = "<group>"; };
+		42B1A9DA2271BDF200FD73F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42B1A9AF2271BDEF00FD73F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42B1A9C62271BDF200FD73F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42B1A9D12271BDF200FD73F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42B1A9A92271BDEF00FD73F5 = {
+			isa = PBXGroup;
+			children = (
+				42B1A9B42271BDEF00FD73F5 /* ImageSaneer */,
+				42B1A9CC2271BDF200FD73F5 /* ImageSaneerTests */,
+				42B1A9D72271BDF200FD73F5 /* ImageSaneerUITests */,
+				42B1A9B32271BDEF00FD73F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42B1A9B32271BDEF00FD73F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42B1A9B22271BDEF00FD73F5 /* ImageSaneer.app */,
+				42B1A9C92271BDF200FD73F5 /* ImageSaneerTests.xctest */,
+				42B1A9D42271BDF200FD73F5 /* ImageSaneerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42B1A9B42271BDEF00FD73F5 /* ImageSaneer */ = {
+			isa = PBXGroup;
+			children = (
+				42B1A9B52271BDEF00FD73F5 /* AppDelegate.swift */,
+				42B1A9B72271BDEF00FD73F5 /* ViewController.swift */,
+				42B1A9B92271BDEF00FD73F5 /* Main.storyboard */,
+				42B1A9BF2271BDF200FD73F5 /* Assets.xcassets */,
+				42B1A9C12271BDF200FD73F5 /* LaunchScreen.storyboard */,
+				42B1A9C42271BDF200FD73F5 /* Info.plist */,
+				42B1A9BC2271BDEF00FD73F5 /* ImageSaneer.xcdatamodeld */,
+			);
+			path = ImageSaneer;
+			sourceTree = "<group>";
+		};
+		42B1A9CC2271BDF200FD73F5 /* ImageSaneerTests */ = {
+			isa = PBXGroup;
+			children = (
+				42B1A9CD2271BDF200FD73F5 /* ImageSaneerTests.swift */,
+				42B1A9CF2271BDF200FD73F5 /* Info.plist */,
+			);
+			path = ImageSaneerTests;
+			sourceTree = "<group>";
+		};
+		42B1A9D72271BDF200FD73F5 /* ImageSaneerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				42B1A9D82271BDF200FD73F5 /* ImageSaneerUITests.swift */,
+				42B1A9DA2271BDF200FD73F5 /* Info.plist */,
+			);
+			path = ImageSaneerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42B1A9B12271BDEF00FD73F5 /* ImageSaneer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42B1A9DD2271BDF200FD73F5 /* Build configuration list for PBXNativeTarget "ImageSaneer" */;
+			buildPhases = (
+				42B1A9AE2271BDEF00FD73F5 /* Sources */,
+				42B1A9AF2271BDEF00FD73F5 /* Frameworks */,
+				42B1A9B02271BDEF00FD73F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageSaneer;
+			productName = ImageSaneer;
+			productReference = 42B1A9B22271BDEF00FD73F5 /* ImageSaneer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42B1A9C82271BDF200FD73F5 /* ImageSaneerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42B1A9E02271BDF200FD73F5 /* Build configuration list for PBXNativeTarget "ImageSaneerTests" */;
+			buildPhases = (
+				42B1A9C52271BDF200FD73F5 /* Sources */,
+				42B1A9C62271BDF200FD73F5 /* Frameworks */,
+				42B1A9C72271BDF200FD73F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42B1A9CB2271BDF200FD73F5 /* PBXTargetDependency */,
+			);
+			name = ImageSaneerTests;
+			productName = ImageSaneerTests;
+			productReference = 42B1A9C92271BDF200FD73F5 /* ImageSaneerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		42B1A9D32271BDF200FD73F5 /* ImageSaneerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42B1A9E32271BDF200FD73F5 /* Build configuration list for PBXNativeTarget "ImageSaneerUITests" */;
+			buildPhases = (
+				42B1A9D02271BDF200FD73F5 /* Sources */,
+				42B1A9D12271BDF200FD73F5 /* Frameworks */,
+				42B1A9D22271BDF200FD73F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42B1A9D62271BDF200FD73F5 /* PBXTargetDependency */,
+			);
+			name = ImageSaneerUITests;
+			productName = ImageSaneerUITests;
+			productReference = 42B1A9D42271BDF200FD73F5 /* ImageSaneerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42B1A9AA2271BDEF00FD73F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Jacob Vinu";
+				TargetAttributes = {
+					42B1A9B12271BDEF00FD73F5 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					42B1A9C82271BDF200FD73F5 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 42B1A9B12271BDEF00FD73F5;
+					};
+					42B1A9D32271BDF200FD73F5 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 42B1A9B12271BDEF00FD73F5;
+					};
+				};
+			};
+			buildConfigurationList = 42B1A9AD2271BDEF00FD73F5 /* Build configuration list for PBXProject "ImageSaneer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42B1A9A92271BDEF00FD73F5;
+			productRefGroup = 42B1A9B32271BDEF00FD73F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42B1A9B12271BDEF00FD73F5 /* ImageSaneer */,
+				42B1A9C82271BDF200FD73F5 /* ImageSaneerTests */,
+				42B1A9D32271BDF200FD73F5 /* ImageSaneerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42B1A9B02271BDEF00FD73F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42B1A9C32271BDF200FD73F5 /* LaunchScreen.storyboard in Resources */,
+				42B1A9C02271BDF200FD73F5 /* Assets.xcassets in Resources */,
+				42B1A9BB2271BDEF00FD73F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42B1A9C72271BDF200FD73F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42B1A9D22271BDF200FD73F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42B1A9AE2271BDEF00FD73F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42B1A9B82271BDEF00FD73F5 /* ViewController.swift in Sources */,
+				42B1A9BE2271BDEF00FD73F5 /* ImageSaneer.xcdatamodeld in Sources */,
+				42B1A9B62271BDEF00FD73F5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42B1A9C52271BDF200FD73F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42B1A9CE2271BDF200FD73F5 /* ImageSaneerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42B1A9D02271BDF200FD73F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42B1A9D92271BDF200FD73F5 /* ImageSaneerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42B1A9CB2271BDF200FD73F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42B1A9B12271BDEF00FD73F5 /* ImageSaneer */;
+			targetProxy = 42B1A9CA2271BDF200FD73F5 /* PBXContainerItemProxy */;
+		};
+		42B1A9D62271BDF200FD73F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42B1A9B12271BDEF00FD73F5 /* ImageSaneer */;
+			targetProxy = 42B1A9D52271BDF200FD73F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42B1A9B92271BDEF00FD73F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42B1A9BA2271BDEF00FD73F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42B1A9C12271BDF200FD73F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42B1A9C22271BDF200FD73F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42B1A9DB2271BDF200FD73F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42B1A9DC2271BDF200FD73F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42B1A9DE2271BDF200FD73F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7JY4AAJ34;
+				INFOPLIST_FILE = ImageSaneer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ImageSaneer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42B1A9DF2271BDF200FD73F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7JY4AAJ34;
+				INFOPLIST_FILE = ImageSaneer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ImageSaneer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		42B1A9E12271BDF200FD73F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7JY4AAJ34;
+				INFOPLIST_FILE = ImageSaneerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ImageSaneerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageSaneer.app/ImageSaneer";
+			};
+			name = Debug;
+		};
+		42B1A9E22271BDF200FD73F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7JY4AAJ34;
+				INFOPLIST_FILE = ImageSaneerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ImageSaneerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageSaneer.app/ImageSaneer";
+			};
+			name = Release;
+		};
+		42B1A9E42271BDF200FD73F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7JY4AAJ34;
+				INFOPLIST_FILE = ImageSaneerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ImageSaneerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ImageSaneer;
+			};
+			name = Debug;
+		};
+		42B1A9E52271BDF200FD73F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7JY4AAJ34;
+				INFOPLIST_FILE = ImageSaneerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ImageSaneerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ImageSaneer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42B1A9AD2271BDEF00FD73F5 /* Build configuration list for PBXProject "ImageSaneer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42B1A9DB2271BDF200FD73F5 /* Debug */,
+				42B1A9DC2271BDF200FD73F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42B1A9DD2271BDF200FD73F5 /* Build configuration list for PBXNativeTarget "ImageSaneer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42B1A9DE2271BDF200FD73F5 /* Debug */,
+				42B1A9DF2271BDF200FD73F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42B1A9E02271BDF200FD73F5 /* Build configuration list for PBXNativeTarget "ImageSaneerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42B1A9E12271BDF200FD73F5 /* Debug */,
+				42B1A9E22271BDF200FD73F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42B1A9E32271BDF200FD73F5 /* Build configuration list for PBXNativeTarget "ImageSaneerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42B1A9E42271BDF200FD73F5 /* Debug */,
+				42B1A9E52271BDF200FD73F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		42B1A9BC2271BDEF00FD73F5 /* ImageSaneer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				42B1A9BD2271BDEF00FD73F5 /* ImageSaneer.xcdatamodel */,
+			);
+			currentVersion = 42B1A9BD2271BDEF00FD73F5 /* ImageSaneer.xcdatamodel */;
+			path = ImageSaneer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 42B1A9AA2271BDEF00FD73F5 /* Project object */;
+}
