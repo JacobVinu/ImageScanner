@@ -21,9 +21,12 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="61r-Jb-hjm">
                                 <rect key="frame" x="-7" y="471" width="382" height="196"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hqN-8u-pyK">
-                                        <rect key="frame" x="96" y="23" width="24" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hqN-8u-pyK">
+                                        <rect key="frame" x="30" y="113" width="24" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="24" id="610-wj-Nho"/>
+                                            <constraint firstAttribute="height" constant="30" id="YSQ-Ss-c5N"/>
+                                        </constraints>
                                         <state key="normal" image="flash_off.png">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -31,35 +34,54 @@
                                             <action selector="flasAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rKk-AG-lS6"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E4N-g6-8b4">
-                                        <rect key="frame" x="161" y="0.0" width="61" height="61"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E4N-g6-8b4">
+                                        <rect key="frame" x="73" y="91" width="61" height="61"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="61" id="9Ol-lf-XqE"/>
+                                            <constraint firstAttribute="width" constant="61" id="bXw-54-uBf"/>
+                                        </constraints>
                                         <state key="normal" image="camera.png"/>
                                         <connections>
                                             <action selector="cameraAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IaF-5k-F59"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c6L-Xj-bkj">
-                                        <rect key="frame" x="260" y="25" width="27" height="26"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="MC0-YY-DPz">
+                                        <rect key="frame" x="207" y="18" width="160" height="160"/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="160" id="129-aN-dY7"/>
+                                            <constraint firstAttribute="height" constant="160" id="IVt-ir-2I1"/>
+                                        </constraints>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c6L-Xj-bkj">
+                                        <rect key="frame" x="159" y="113" width="29" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="B8R-17-jKh"/>
+                                            <constraint firstAttribute="width" constant="29" id="DdK-bw-Q4R"/>
+                                        </constraints>
                                         <state key="normal" image="focus.png"/>
                                         <connections>
                                             <action selector="focusAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xUL-cv-fwU"/>
                                         </connections>
                                     </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MC0-YY-DPz">
-                                        <rect key="frame" x="131" y="69" width="120" height="120"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
-                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
+                                    <constraint firstItem="hqN-8u-pyK" firstAttribute="top" secondItem="61r-Jb-hjm" secondAttribute="top" constant="113" id="5SP-I2-xKH"/>
+                                    <constraint firstAttribute="bottom" secondItem="hqN-8u-pyK" secondAttribute="bottom" constant="53" id="B9h-eF-e3Z"/>
+                                    <constraint firstItem="E4N-g6-8b4" firstAttribute="leading" secondItem="hqN-8u-pyK" secondAttribute="trailing" constant="19" id="Bmf-EB-M1y"/>
+                                    <constraint firstAttribute="bottom" secondItem="c6L-Xj-bkj" secondAttribute="bottom" constant="53" id="Cv5-eB-w1X"/>
+                                    <constraint firstItem="hqN-8u-pyK" firstAttribute="leading" secondItem="61r-Jb-hjm" secondAttribute="leading" constant="30" id="G0t-qh-KhD"/>
+                                    <constraint firstAttribute="trailing" secondItem="MC0-YY-DPz" secondAttribute="trailing" constant="15" id="H7l-vE-2e4"/>
+                                    <constraint firstAttribute="bottom" secondItem="E4N-g6-8b4" secondAttribute="bottom" constant="44" id="KKF-wC-xZs"/>
+                                    <constraint firstItem="MC0-YY-DPz" firstAttribute="centerY" secondItem="61r-Jb-hjm" secondAttribute="centerY" id="Mdl-vm-Khu"/>
+                                    <constraint firstItem="c6L-Xj-bkj" firstAttribute="leading" secondItem="E4N-g6-8b4" secondAttribute="trailing" constant="25" id="PXh-lU-Fbc"/>
                                     <constraint firstAttribute="height" constant="196" id="TeI-QC-sLd"/>
+                                    <constraint firstItem="c6L-Xj-bkj" firstAttribute="top" secondItem="61r-Jb-hjm" secondAttribute="top" constant="113" id="zWO-lP-Gq1"/>
+                                    <constraint firstItem="E4N-g6-8b4" firstAttribute="top" secondItem="61r-Jb-hjm" secondAttribute="top" constant="91" id="zwf-lR-QRB"/>
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="bJ7-KE-zxH" firstAttribute="trailing" secondItem="61r-Jb-hjm" secondAttribute="trailing" id="W7j-Cl-YV6"/>
                             <constraint firstItem="bJ7-KE-zxH" firstAttribute="leading" secondItem="61r-Jb-hjm" secondAttribute="leading" constant="7" id="ghm-tL-urg"/>
@@ -82,6 +104,7 @@
     <resources>
         <image name="camera.png" width="128" height="128"/>
         <image name="flash_off.png" width="48" height="57"/>
-        <image name="focus.png" width="64" height="64"/>
+        <image name="focus.png" width="128" height="128"/>
+        <image name="logo.png" width="389" height="376"/>
     </resources>
 </document>

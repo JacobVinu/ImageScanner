@@ -18,29 +18,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="7zo-zX-Ofj">
-                                <rect key="frame" x="88" y="233" width="200" height="200"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="7zo-zX-Ofj">
+                                <rect key="frame" x="107.5" y="253.5" width="160" height="160"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="7ox-bu-5LJ"/>
-                                    <constraint firstAttribute="height" constant="200" id="Xbv-fT-jre"/>
+                                    <constraint firstAttribute="width" constant="160" id="7ox-bu-5LJ"/>
+                                    <constraint firstAttribute="height" constant="160" id="Xbv-fT-jre"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Image Scanner" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WHN-WJ-KjZ">
-                                <rect key="frame" x="72" y="441" width="231" height="42"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="image ScaNNer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WHN-WJ-KjZ">
+                                <rect key="frame" x="26" y="392" width="323" height="73"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="42" id="exd-Pe-db7"/>
+                                    <constraint firstAttribute="height" constant="73" id="exd-Pe-db7"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="22"/>
+                                <color key="textColor" red="0.9803052544593811" green="0.60663396120071411" blue="0.0072423783130943775" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.88642131980000005" green="0.88642131980000005" blue="0.88642131980000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="7zo-zX-Ofj" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="-10" id="37M-xB-K3j"/>
-                            <constraint firstItem="WHN-WJ-KjZ" firstAttribute="top" secondItem="7zo-zX-Ofj" secondAttribute="bottom" constant="8" id="SjH-Mz-L31"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WHN-WJ-KjZ" secondAttribute="trailing" constant="72" id="eJg-z7-HgW"/>
-                            <constraint firstItem="WHN-WJ-KjZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="72" id="gCE-Dp-Uqr"/>
+                            <constraint firstItem="WHN-WJ-KjZ" firstAttribute="top" secondItem="7zo-zX-Ofj" secondAttribute="bottom" constant="-21" id="SjH-Mz-L31"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WHN-WJ-KjZ" secondAttribute="trailing" constant="26" id="eJg-z7-HgW"/>
+                            <constraint firstItem="WHN-WJ-KjZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="26" id="gCE-Dp-Uqr"/>
                             <constraint firstItem="7zo-zX-Ofj" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="r8a-Yi-aWP"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -52,6 +52,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="icon.jpg" width="1024" height="1024"/>
+        <image name="logo.png" width="389" height="376"/>
     </resources>
 </document>
