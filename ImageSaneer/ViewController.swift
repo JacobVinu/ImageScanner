@@ -87,7 +87,7 @@ class ViewController: UIViewController,AVCapturePhotoCaptureDelegate {
         maskLayer.frame = overlay.bounds
         maskLayer.fillColor = UIColor.black.withAlphaComponent(0.7).cgColor
         // Create the frame for the inner frame.
-        let radius: CGFloat = 8.0
+        let radius: CGFloat = 20.0
         let rect = UIBezierPath(roundedRect:  CGRect(x: self.view.frame.size.width / 2 - 125,y: self.view.frame.size.height/2 - 125 ,width:250,height:250), byRoundingCorners:.allCorners, cornerRadii: CGSize(width:radius, height:radius))
         // Create the path.
         let path = UIBezierPath(rect: overlay.bounds)
